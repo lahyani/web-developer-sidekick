@@ -3,7 +3,7 @@
 Web Developer Sidekick allows recognition of website environments and display useful data such as credentials, ip address, database connections...etc
 
 Once **Web Developer Sidekick** installed you have to go to configuration page (**about:addons**) and click **Options**. Now you can set the addon parameters. The extension use YAML notations to read the parameters. 
-
+![Options Page](https://addons.cdn.mozilla.net/user-media/previews/full/193/193122.png?modified=1511928151)
 Here some parameters descriptions:
 
 **Autohide**: If check it will hide the badge after **Duration** parameter value 
