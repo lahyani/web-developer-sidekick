@@ -36,6 +36,8 @@ rules:
               ip_address: "http://127.0.0.1"
               description: "This is a demo.\nText mode only"
 </pre>
+
+![Summary Tab](https://addons.cdn.mozilla.net/user-media/previews/full/193/193119.png?modified=1511928152)
 The mandatory fields for any rule are: 
 **type**: It can be "contains_string", "in_array", "matches_regex". 
 
