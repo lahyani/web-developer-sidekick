@@ -12,17 +12,6 @@ Here some parameters descriptions:
 
 **Position** : The badge position: A drop down to select the badge position. Accepted values are: Top left, top right, bottom left and bottom right. 
 
-**Environments Styles** : This parameter allow you to custom the badge background color and text color too. It's use YAML annotation. You have to respect the structure as it's shown on the example data provided by the extension. In the example below one underscore is equal to one space character. 
-
-<pre>
-environments:
-  local:
-    text: "Local"
-    css:
-      color: "#20B2AA"
-      background-color: "#98FB98"
-</pre>  
-
 **Domain rules** : The mandatory structure for _Domain Rules_ is: 
 
 <pre>  
