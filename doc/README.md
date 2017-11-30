@@ -43,11 +43,11 @@ The mandatory fields for any rule are:
 
 <pre>
 rules:   
-  - condition: "www.example.org"   
+  - condition: "www.firefox.com"   
     type: "contains_string" 
 </pre> 
 
-If you navigate to www.example.org. The badge will be displayed. But For site example.org the badge will disappear beacause it don't match the condition. 
+If you navigate to www.firefox.com. The badge will be displayed. But For site example.org the badge will disappear beacause it don't match the condition. ![Display Environment](https://addons.cdn.mozilla.net/user-media/previews/full/193/193118.png?modified=1511928152)
 
 **title**:The tab title. 
 
@@ -61,3 +61,6 @@ If you navigate to www.example.org. The badge will be displayed. But For site ex
 
 # Data Fields #
 It contains a list of data to display. Each item has a header field (it can be empty) and a **list** field. The list has a couple of pair key-value. The parser will take display the key on the left as a label and the value on the right. If you don't won't to display the label add a field hide_label:true just after the header field.
+
+# Tab Fields #
+Comming soon!
